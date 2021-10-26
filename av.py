@@ -45,6 +45,8 @@ def main():
         answer = av_numbers(list_2d, rows_int, columns_int)
         if rows_int < 0:
             print("These are invaild numbers.")
+        elif columns_int < 0:
+            print("These are invaild numbers.")
         else:
             print("")
             print("The average of all the numbers is: {0} ".format(answer))
